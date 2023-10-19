@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+/* Menú */
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-right-section{
+    width: 250px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-right-section a{
+    margin-right: 25px;
+    color: #000000DE;
+}
+.nav-right-section .menu-icon{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+.nav-right-section img{
+    margin-left: 18px;
+    border-radius: 60px;
+    width: 30px;
+    height: 30px;
+}
+main{
+    margin: 150px;
+    text-align: center;
+}
+.main-Logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-input{
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-input-container{
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input-container input{
+    border: none;
+    width: 530px;
+    height: 40px;
+    outline: none;
+}
+.main-input-container:hover{
+    box-shadow: 0 1px 6px 8px #20212447;
+    border-color: #dfe1e5;
+}
+
+.search-icon{
+    background-image: url("https://cdn-icons-png.flaticon.com/256/3917/3917132.png");
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-left: 6%;
+
+}
+.micro-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-right: 4%;
+}
+.cam-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/640px-Google_Lens_Icon.svg.png");
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-right: 8%;
+}
+.main-buttons div{
+    display: inline-block;
+}
+.main-buttons button{
+    border: none;
+    height: 36px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 1px solid #f8f9fa;
+    margin-right: 10px;
+}
+.main-buttons button:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid #e4e4ee;
+    bottom: 2%;
+    padding: 10px;
+}
+
+.footer-Location{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+}
+
+.footer-Left{
+    justify-content: left;
+}
+
+.footer-right{
+    justify-content: right;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer ul li a{
+    color: #70757a;
+    margin: 10px;
+}
